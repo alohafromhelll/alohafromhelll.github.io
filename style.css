@@ -2,10 +2,10 @@ body{
   background-color: #252527 !important;
   
 }
-::-webkit-input-placeholder {font-size: 18px;}
-:-moz-placeholder { font-size: 18px;}
-::-moz-placeholder { font-size: 18px;}
-:-ms-input-placeholder { font-size: 18px;}
+::-webkit-input-placeholder {font-size: 16px;}
+:-moz-placeholder { font-size: 16px;}
+::-moz-placeholder { font-size: 16px;}
+:-ms-input-placeholder { font-size: 16px;}
 
 textarea{
   resize: none;
@@ -52,10 +52,15 @@ textarea{
 @media (min-width: 768px) {
 
 .right-box{
-  height: 458px;
+  height: 402px;
 }
 .box{
   
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+select:focus, textarea:focus, input:focus {
+        font-size: 16px;
+    }
 }
 }
 @media (min-width: 992px) {
