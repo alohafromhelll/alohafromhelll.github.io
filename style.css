@@ -1,70 +1,74 @@
 body{
-  background-color: #252527 !important;
-  
-}
-::-webkit-input-placeholder {font-size: 16px;}
-:-moz-placeholder { font-size: 16px;}
-::-moz-placeholder { font-size: 16px;}
-:-ms-input-placeholder { font-size: 16px;}
-
-textarea{
-  resize: none;
-  font-size: 16px;
-}
-.container{
-  padding-left: 30px;
-  padding-right: 30px;
-}
-.box{
-  height: 100%;
-}
-.left-box{
-  padding: 20px;
-  background-color: #eeeeee;
-  height: 100%;
-  /*border-right: #cbcbcb solid 5px;
-  border-top: #cbcbcb solid 5px;*/
-}
-.right-box{
-  padding: 20px;
-  background-color: white;
-  font-size: 16px;
-  height: 100%;
-  /*border-top: #cbcbcb solid 5px;*/
-  color: #999999;
+	font-family: 'Roboto Mono', monospace !important;
 }
 .top{
-  height: 160px;
-  background-color: black;
-  color: white;
-  padding-top: 30px;
- }
-.form-group{
-  color:grey;
-  font-size: 16px;
-}
-.foot{
-  height: 40px;
-  background-color: black;
-  color: white;
-  padding-top: 7px;
-}
-@media (min-width: 768px) {
-
-.right-box{
-  height: 402px;
+	height: 100px;
+	border-bottom: black solid 1px;
 }
 .box{
-  
+	
 }
+.left{
+	padding: 20px;
+	border-bottom: black solid 1px;
+}
+.right{
+	padding: 20px;
+	border-bottom: black solid 1px;
+}
+.icon{
+	padding: 20px;
+}
+.address{
+	padding: 10px;
+}
+.bottom{
+	text-align: center;
+}
+textarea{
+	resize: none;
+}
+
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
 select:focus, textarea:focus, input:focus {
         font-size: 16px;
     }
 }
-}
-@media (min-width: 992px) {
+
+@media (min-width: 768px) {
+
 .container{
         max-width: 750px;
-    }
+}
+.top{
+	border-bottom: black solid 1px;
+	height: 100px;
+}
+.box{
+	border-bottom: black solid 1px;
+	border-right: black solid 1px;
+	border-left: black solid 1px;
+}
+.left{
+	padding: 20px;
+	border-right: black solid 1px;
+	border-bottom: black solid 0px;
+}
+.right{
+	padding: 20px;
+	border-bottom: black solid 0px;
+	
+}
+.address{
+	padding: 10px;
+}
+.bottom{
+	border-bottom: black solid 1px;
+	border-left: black solid 1px;
+	border-right: black solid 1px;
+	text-align: left;
+}
+}
+@media (min-width: 992px) {
+
 }
