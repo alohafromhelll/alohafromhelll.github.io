@@ -1,6 +1,10 @@
 body{
   background-color: #252527 !important;
 }
+.container{
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .box{
   height: 100%;
 }
@@ -14,7 +18,7 @@ body{
 .right-box{
   padding: 20px;
   background-color: white;
-  font-size: 15px;
+  font-size: 16px;
   height: 100%;
   /*border-top: #cbcbcb solid 5px;*/
   color: #999999;
@@ -30,6 +34,7 @@ textarea{
 }
 .form-group{
   color:grey;
+  font-size: 16px;
 }
 .foot{
   height: 40px;
@@ -40,7 +45,7 @@ textarea{
 @media (min-width: 768px) {
 
 .right-box{
-  height: 396px;
+  height: 402px;
 }
 .box{
   
