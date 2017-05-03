@@ -18,7 +18,9 @@ body{
 .bottom{
 	text-align: center;
 	padding-top: 20px;
-
+}
+.form-group{
+	font-size: 16px;
 }
 textarea{
 	resize: none;
@@ -34,6 +36,7 @@ textarea{
 select:focus, textarea:focus, input:focus {
         font-size: 16px;
     }
+}
 }
 
 @media (min-width: 768px) {
