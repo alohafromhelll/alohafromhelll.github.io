@@ -32,14 +32,15 @@ textarea{
 ::-moz-placeholder { font-size: 16px;}
 :-ms-input-placeholder { font-size: 16px;}
 
+
+
+@media (min-width: 768px) {
+
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
 select:focus, textarea:focus, input:focus {
         font-size: 16px;
     }
 }
-}
-
-@media (min-width: 768px) {
 
 .container{
         max-width: 750px;
