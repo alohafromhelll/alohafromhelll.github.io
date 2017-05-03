@@ -22,6 +22,9 @@ body{
 .form-group{
 	font-size: 16px;
 }
+.form-control{
+	font-size: 16px !important;
+}
 textarea{
 	resize: none;
 	font-size: 16px;
