@@ -22,6 +22,7 @@ body{
 }
 textarea{
 	resize: none;
+	font-size: 16px;
 }
 
 ::-webkit-input-placeholder {font-size: 16px;}
