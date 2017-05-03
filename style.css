@@ -19,34 +19,6 @@ body{
 	text-align: center;
 	padding-top: 20px;
 }
-.form-group{
-	font-size: 16px;
-}
-.form-control{
-	font-size: 16px !important;
-}
-textarea{
-	resize: none;
-	font-size: 16px;
-}
-
-::-webkit-input-placeholder {font-size: 16px;}
-:-moz-placeholder { font-size: 16px;}
-::-moz-placeholder { font-size: 16px;}
-:-ms-input-placeholder { font-size: 16px;}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-select:focus, textarea:focus, input:focus {
-        font-size: 16px;
-    }
-}
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
-  select,
-  textarea,
-  input {
-    font-size: 16px;
-  }
-}
 
 @media (min-width: 768px) {
 
