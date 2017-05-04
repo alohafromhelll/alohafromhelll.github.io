@@ -13,6 +13,9 @@ body{
 	padding: 20px;
 	border-bottom: black solid 1px;
 }
+.file{
+	margin-top: 10px;
+}
 .bottom{
 	text-align: center;
 	padding-top: 20px;
